@@ -1,0 +1,42 @@
+{
+  "name": "broccoli-tree-walker",
+  "version": "1.0.0",
+  "description": "Broccoli wrapper over walk-sync and fs-tree-diff",
+  "main": "src/index.js",
+  "repository": "github:webark/broccoli-tree-walker",
+  "author": "Mark David Avery",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "broccoli",
+    "broccoli-plugin",
+    "broccoli-helper",
+    "tree-diff",
+    "file-walker"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests/",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "broccoli-plugin": "^3.0.0",
+    "fs-tree-diff": "^2.0.1",
+    "walk-sync": "^2.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "broccoli-test-helper": "^2.0.0",
+    "chai": "^4.2.0",
+    "common-tags": "^1.8.0",
+    "eslint": "^6.3.0",
+    "husky": "^4.0.0-beta.1",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.2",
+    "standard-version": "^7.0.0"
+  },
+  "engines": {
+    "node": ">= 10.*"
+  }
+}

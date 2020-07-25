@@ -1,6 +1,6 @@
 {
   "name": "broccoli-tree-walker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Broccoli wrapper over walk-sync and fs-tree-diff",
   "main": "src/index.js",
   "repository": "github:webark/broccoli-tree-walker",
